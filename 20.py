@@ -30,7 +30,7 @@ logger = logging.getLogger("FoodPrediction")
 # ✅ Load model from Google Drive
 @st.cache_resource
 def load_model():
-    file_id = ""  # 🔁 Replace with your actual Google Drive file ID
+    file_id = "1f3Nj-x4ji6BKSWHZImpuInMyBE_wRAEL"   # 🔁 Replace with your actual Google Drive file ID
     output_path = "adouble.dill"
 
     if not os.path.exists(output_path):
