@@ -156,6 +156,6 @@ def main():
         st.warning("Please enter menu items before predicting.")
         logger.warning("Prediction button clicked without menu items")
 
-if _name_ == "_main_":
+if __name-_ == "__main__":
     main()
 
