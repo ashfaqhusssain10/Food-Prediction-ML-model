@@ -130,10 +130,11 @@ def main():
             # Add to table data (exclude Category)
             table_data.append({
                 "Item": item,
+                "Category": category,
                 "Quantity": qty_str,
                 "Per Person Weight": per_person_weight,
-                #"Per Person Price": f"₹{price_per_person:.2f}",
                 "Per Person Price": f"₹{(total_price / guest_count):.2f}",
+                "Base Price" base_price_per_unit,
                 "Total Price": f"₹{total_price:.2f}",
             })
 
